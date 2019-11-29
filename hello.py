@@ -1,7 +1,8 @@
 print("hello world")
 print("test")
+print("saving?")
 
 age = 20
 name = 'West'
 
-print('{0} is {1} years old'.format(name, age))
+print(f'{name} was {age} years old when he wrote this book')
