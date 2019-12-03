@@ -1,4 +1,5 @@
-print("hello world")
+
+""" print("hello world")
 print("test")
 print("saving?")
 
@@ -11,3 +12,6 @@ sport = "soccer"
 skill = "nutmeg"
 
 print(f"West is so nice at {sport}, he {skill}s people all the time")
+ """
+
+
