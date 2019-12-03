@@ -87,7 +87,7 @@ while True:
     if s == "quit" or s == "Quit":
         break
     print("length of string is", len(s))
-print("Done")
+#print("Done")
 
 
 
