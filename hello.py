@@ -76,13 +76,18 @@ while running:
 else:
     print("the while loop is donzo") """
 
-for i in range(0,50,2):
+""" for i in range(0,50,2):
     print(i)
 else:
-    print("loop's done")
+    print("loop's done") """
 
 
-
+while True:
+    s = input("Say Something : ")
+    if s == "quit" or s == "Quit":
+        break
+    print("length of string is", len(s))
+print("Done")
 
 
 
