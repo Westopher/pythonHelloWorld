@@ -35,7 +35,7 @@ print('Area is', area)
 perimeter = 2 * (length + width)
 print("Perimeter is", perimeter) """
 
-number = 23
+""" number = 23
 guess = int(input('Enter an integer:'))
 
 if guess == number:
@@ -47,6 +47,48 @@ else:
     print("you guess was too high")
 
 print("done")
+
+num = int(input("enter number"))
+if num%2 == 0:
+   if num%3 == 0:
+      print ("Divisible by 3 and 2") #both
+   else:
+      print ("divisible by 2 not divisible by 3") #just the top if
+else:
+   if num%3 == 0:
+      print ("divisible by 3 not divisible by 2")
+   else:
+      print  ("not Divisible by 2 not divisible by 3") """
+
+""" number = 23
+running = True
+
+while running:
+    guess = int(input('enter integer '))
+
+    if guess == number:
+        print("you got the right number")
+        running = False #while loop stops running when it gets here and goes to last else below
+    elif guess < number:
+        print("no, the number guessed is too low")
+    else:
+        print("no the number is too high")
+else:
+    print("the while loop is donzo") """
+
+for i in range(1,5):
+    print(i)
+else:
+    print("loop's done")
+
+
+
+
+
+
+
+
+
 
 
 
