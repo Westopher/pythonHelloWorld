@@ -36,7 +36,7 @@ perimeter = 2 * (length + width)
 print("Perimeter is", perimeter) """
 
 number = 23
-guess = int(input('Enter an integer : '))
+guess = int(input('Enter an integer:'))
 
 if guess == number:
     print("you guessed it")
