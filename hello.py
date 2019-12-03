@@ -76,7 +76,7 @@ while running:
 else:
     print("the while loop is donzo") """
 
-for i in range(1,5):
+for i in range(0,50,2):
     print(i)
 else:
     print("loop's done")
