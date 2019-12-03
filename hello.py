@@ -26,11 +26,41 @@ This is the second line'''
 
 print(multiLineString) """
 
-length = 10
+""" length = 10
 width = 5
 
 area = length * width
 print('Area is', area)
 
 perimeter = 2 * (length + width)
-print("Perimeter is", perimeter)
+print("Perimeter is", perimeter) """
+
+number = 23
+guess = int(input('Enter an integer : '))
+
+if guess == number:
+    print("you guessed it")
+    print("no prize though")
+elif guess < number:
+    print("Nope, your guess is a little lower than the number")
+else:
+    print("you guess was too high")
+
+print("done")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
