@@ -81,18 +81,49 @@ else:
 else:
     print("loop's done") """
 
-
+"""
 while True:
     s = input("Say Something : ")
     if s == "quit" or s == "Quit":
         break
     print("length of string is", len(s))
-#print("Done")
+print("Done")
+"""
 
 
+"""
+If  is odd, print Weird
+If  is even and in the inclusive range of  to , print Not Weird
+If  is even and in the inclusive range of  to , print Weird
+If  is even and greater than , print Not Weird
+"""
 
+"""
+n = int(input().strip())
+if n % 2 != 0:
+    print("Weird")
+elif n > 1 and n < 6:
+        print("Not Weird")
+elif n % 2 == 0:
+    print("Not Weird")
+    if n > 5 and n < 21:
+        print("Weird")
+elif n % 2 == 0 and n > 20:
+    print("Not Weird")
+"""
 
-
+n = int(input().strip())
+#if odd, print weird
+if n % 2 != 0:
+    print("Weird")
+#if even and between 2 and 5 print not weird
+if n % 2 == 0 and (n > 1 and n < 6):
+    print("Not Weird")
+if n % 2 == 0 and (n > 5 and n < 21):
+    print("Weird")
+#if n is even and larger than 20 print not weird
+elif n % 2 == 0 and n > 20:
+    print("Not Weird")
 
 
 
