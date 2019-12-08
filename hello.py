@@ -127,19 +127,39 @@ elif n % 2 == 0 and n > 20:
  """
 
 
-#function
+""" #function
 def sayHello():
     print('hello world of functions')
 
 sayHello()
 
 
+def printMax(a, b):
+    if a > b:
+        print(a, 'is bigger than B')
+    elif a == b:
+        print(a, 'is equal to', b)
+    else:
+        print(b,'is larger than', a)
+
+printMax(15000, 20)
 
 
+x = 50
+y = 111111
+
+printMax(x,y) """
 
 
+x = 50
 
+def func(x):
+    print('x is', x)
+    x = 2
+    print('changed local x to', x)
 
+func(x)
+print("x is still ", x)
 
 
 
