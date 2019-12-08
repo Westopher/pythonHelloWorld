@@ -151,7 +151,7 @@ y = 111111
 printMax(x,y) """
 
 
-x = 50
+""" x = 50
 
 def func(x):
     print('x is', x)
@@ -159,10 +159,13 @@ def func(x):
     print('changed local x to', x)
 
 func(x)
-print("x is still ", x)
+print("x is still ", x) """
 
 
+def say(message, times=10):
+    print(message * times)
 
+say("hello")
 
 
 
