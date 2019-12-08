@@ -112,7 +112,7 @@ elif n % 2 == 0 and n > 20:
     print("Not Weird")
 """
 
-n = int(input().strip())
+""" n = int(input().strip())
 #if odd, print weird
 if n % 2 != 0:
     print("Weird")
@@ -124,7 +124,14 @@ if n % 2 == 0 and (n > 5 and n < 21):
 #if n is even and larger than 20 print not weird
 elif n % 2 == 0 and n > 20:
     print("Not Weird")
+ """
 
+
+#function
+def sayHello():
+    print('hello world of functions')
+
+sayHello()
 
 
 
