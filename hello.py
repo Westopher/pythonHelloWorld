@@ -201,7 +201,7 @@ The year can be evenly divided by 4, is a leap year, unless:
 The year can be evenly divided by 100, it is NOT a leap year, unless:
 The year is also evenly divisible by 400. Then it is a leap year."""
 
-def is_leap(year):
+"""def is_leap(year):
     leap = False
     
     if year % 4 == 0:
@@ -216,7 +216,11 @@ def is_leap(year):
     return leap
 
 year = int(input())
-print(is_leap(year))
+print(is_leap(year))"""
+
+""" print each number in a range, separated by a comma """
+y=10
+print(*range(1, y+1), sep=',')
 
 
 
