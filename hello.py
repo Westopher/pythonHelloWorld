@@ -180,12 +180,12 @@ def total(a=5, *numbers, **phonebook):
     print('a=', a)
 
     for i in numbers:
-        print('i =', i)
+        print('i =', i*2)
 
     for j, k in phonebook.items():
         print(j,k)
 
-total(10,1, 2, 3,West=12345, Benedicte=678910, Luna=98765)
+total(10,1, 2, 3, 22, West=12345, Benedicte=678910, Luna=98765)
 
 
 
