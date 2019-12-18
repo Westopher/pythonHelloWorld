@@ -176,7 +176,7 @@ say("hello") """
 keywordArgs(55, c=600)
 keywordArgs(54, 999, c=1776)"""
 
-def total(a=5, *numbers, **phonebook):
+"""def total(a=5, *numbers, **phonebook):
     print('a=', a)
 
     for i in numbers:
@@ -185,7 +185,16 @@ def total(a=5, *numbers, **phonebook):
     for j, k in phonebook.items():
         print(j,k)
 
-total(10,1, 2, 3, 22, West=12345, Benedicte=678910, Luna=98765)
+total(10,1, 2, 3, 22, West=12345, Benedicte=678910, Luna=98765)"""
+
+def maximum(x,y):
+    if x > y:
+        return x
+    elif x == y:
+        return "them numbers is equal"
+    else: return y
+
+print(maximum(1, 656))
 
 
 
