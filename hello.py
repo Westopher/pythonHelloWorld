@@ -187,16 +187,36 @@ keywordArgs(54, 999, c=1776)"""
 
 total(10,1, 2, 3, 22, West=12345, Benedicte=678910, Luna=98765)"""
 
-def maximum(x,y):
+"""def maximum(x,y):
     if x > y:
         return x
     elif x == y:
         return "them numbers is equal"
-    else: return y
+    else: return 'the greater number is', y
 
-print(maximum(1, 656))
+print(maximum(1, 656))"""
 
+"""In the Gregorian calendar three criteria must be taken into account to identify leap years:
+The year can be evenly divided by 4, is a leap year, unless:
+The year can be evenly divided by 100, it is NOT a leap year, unless:
+The year is also evenly divisible by 400. Then it is a leap year."""
 
+def is_leap(year):
+    leap = False
+    
+    if year % 4 == 0:
+        leap = True
+    
+    if year % 100 == 0:
+        leap = False
+    
+    if year % 400 == 0:
+        leap = True
+    
+    return leap
+
+year = int(input())
+print(is_leap(year))
 
 
 
