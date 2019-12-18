@@ -157,17 +157,24 @@ def func(x):
     print('x is', x)
     x = 2
     print('changed local x to', x)
-
-func(x)
-print("x is still ", x) """
+    print(x)
 
 
-def say(message, times=10):
+
+func(x) """
+"""print("x is still ", x)"""
+
+
+""" def say(message, times=10):
     print(message * times)
 
-say("hello")
+say("hello") """
 
+def keywordArgs(a, b=5, c=10):
+    print('a =',a,", " 'b = ',b,", " 'c = ',c)
 
+keywordArgs(55, c=600)
+keywordArgs(54, 999, c=1776)
 
 
 
