@@ -219,8 +219,16 @@ year = int(input())
 print(is_leap(year))"""
 
 """ print each number in a range, separated by a comma """
-y=10
-print(*range(1, y+1), sep=',')
 
+def countTenByTwo(start, stop, step):
+    
+    for i in range(start, stop, step):
+        print(i)
 
+    
+startVar = 2
+stopVar = 10
+stepVar = 2 
+    
+print(countTenByTwo(startVar, stopVar, stepVar))
 
