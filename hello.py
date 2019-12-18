@@ -170,11 +170,23 @@ func(x) """
 
 say("hello") """
 
-def keywordArgs(a, b=5, c=10):
+"""def keywordArgs(a, b=5, c=10):
     print('a =',a,", " 'b = ',b,", " 'c = ',c)
 
 keywordArgs(55, c=600)
-keywordArgs(54, 999, c=1776)
+keywordArgs(54, 999, c=1776)"""
+
+def total(a=5, *numbers, **phonebook):
+    print('a=', a)
+
+    for i in numbers:
+        print('i =', i)
+
+    for j, k in phonebook.items():
+        print(j,k)
+
+total(10,1, 2, 3,West=12345, Benedicte=678910, Luna=98765)
+
 
 
 
