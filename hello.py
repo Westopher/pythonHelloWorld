@@ -220,7 +220,7 @@ print(is_leap(year))"""
 
 """ print each number in a range, separated by a comma """
 
-def countTenByTwo(start, stop, step):
+""" def countTenByTwo(start, stop, step):
     
     for i in range(start, stop, step):
         print(i)
@@ -230,5 +230,19 @@ startVar = 2
 stopVar = 10
 stepVar = 2 
     
-print(countTenByTwo(startVar, stopVar, stepVar))
+print(countTenByTwo(startVar, stopVar, stepVar)) """
+
+import sys
+
+print('the command line arguments are:')
+
+for i in sys.argv:
+    print(i)
+
+print("\n\nThe PythonPath is", sys.path, '\n')
+
+
+
+
+
 
