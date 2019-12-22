@@ -1,6 +1,6 @@
 """Datatypes"""
 
-shoppingList = ['apple','banana','orange','milk','eggs']
+""" shoppingList = ['apple','banana','orange','milk','eggs']
 print("I have ", len(shoppingList), "items to purchase")
 
 print("These items are:", end=' ')
@@ -20,6 +20,11 @@ oldItem = shoppingList[0]
 del shoppingList[0]
 print("I bought the", oldItem)
 print("my list is now:", shoppingList)
+
+ """
+
+zoo = ('python','elephant','penguin','zebra')
+print("number is animals in the zoo is", len(zoo))
 
 
 
