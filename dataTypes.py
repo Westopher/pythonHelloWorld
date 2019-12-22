@@ -35,7 +35,7 @@ print('Number of animals in the new zoo is',
       len(new_zoo)-1+len(new_zoo[2]))
  """
 
-ab = {
+""" ab = {
     'West': 'west@email.com',
     'Benedicte': 'benedicte@email.com',
     'Sky': 'sky@email.com',
@@ -44,17 +44,32 @@ ab = {
 
 print("West's email is", ab['West'])
 
+print(f"you have {len(ab)} contacts in your addressbook")
+
 del ab['Spammer']
+
+print(f"NOW you have {len(ab)} contacts in your addressbook")
 
 for name, address in ab.items():
     print(f"{name}, {address}")
 
+#adding a key-value pair
+ab["Kate"] = 'kate@gmail.com'
+
+for name, address in ab.items():
+    print(f"{name}, {address}")
+
+if 'Kate' in ab:
+    print("Kate's email is:", ab["Kate"]) """
 
 
 
 
 
+zoo = ['python', 'elephant', 'penguin', 'rabbit']
+name = 'west'
 
+print(zoo[:])
 
 
 
