@@ -231,7 +231,7 @@ stopVar = 10
 stepVar = 2 
     
 print(countTenByTwo(startVar, stopVar, stepVar)) """
-
+""" 
 import sys
 
 print('the command line arguments are:')
@@ -241,8 +241,19 @@ for i in sys.argv:
 
 print("\n\nThe PythonPath is", sys.path, '\n')
 
+ """
 
 
+""" if __name__ == '__main__':
+    print("run by itself")
+else:
+    print("imported from another module")
+ """
+
+def sayHi():
+    print("hello, this is your module speaking.")
+
+__version__ = '0.1'
 
 
 
