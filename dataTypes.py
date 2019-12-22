@@ -44,6 +44,11 @@ ab = {
 
 print("West's email is", ab['West'])
 
+del ab['Spammer']
+
+for name, address in ab.items():
+    print(f"{name}, {address}")
+
 
 
 
