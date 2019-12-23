@@ -63,17 +63,20 @@ if 'Kate' in ab:
     print("Kate's email is:", ab["Kate"]) """
 
 
-
-
-
 zoo = ['python', 'elephant', 'penguin', 'rabbit']
 name = 'west'
 
-print(zoo[:])
-print(name[0:4])
+print(zoo[1:2])
+print(name[0:2])
 
 
+shoppingList = ["apple", "orange", "kiwi", "milk", "eggs", "food1", "food2", "food3", "food4", "food5"]
 
+print(shoppingList[0:3])
+print(shoppingList[1:10:2])
+print(shoppingList[::3])
+print(shoppingList[::4])
+print(shoppingList[::5])
 
 
 
