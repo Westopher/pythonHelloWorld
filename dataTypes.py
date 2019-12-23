@@ -70,7 +70,7 @@ zoo = ['python', 'elephant', 'penguin', 'rabbit']
 name = 'west'
 
 print(zoo[:])
-
+print(name[0:4])
 
 
 

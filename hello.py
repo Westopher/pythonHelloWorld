@@ -251,8 +251,8 @@ else:
  """
 
 def sayHi():
-    print("hello, this is your module speaking.")
-
+    west = "westopher"
+    print(f"hello, this is your module speaking. My name is {west}")
 __version__ = '0.1'
 
 
