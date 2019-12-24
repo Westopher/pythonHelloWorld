@@ -5,11 +5,12 @@ source = ['/Users/westkraemer/Desktop/pythonfile']
 
 target_dir = '/Users/westkraemer/Desktop/pythonBackupFile'
 
-target = target_dir + os.sep + \
-        time.strftime('%Y%m%d%H%M%S') + '.zip'
-
 if not os.path.exists(target_dir):
     os.mkdir(target_dir)
+
+today = target_dir + os.sep + time.strftime('%Y%m%d')
+
+now = time.strftime(%H%M%S)
 
 zip_command = 'zip -r {0} {1}'.format(target, ' '.join(source))
 
