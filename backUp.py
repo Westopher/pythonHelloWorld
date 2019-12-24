@@ -1,9 +1,9 @@
 import os
 import time
 
-source = ['Users/westkraemer/Desktop/pythonfile']
+source = ['/Users/westkraemer/Desktop/pythonfile']
 
-target_dir = 'Users/westkraemer/Desktop/pythonBackupFile'
+target_dir = '/Users/westkraemer/Desktop/pythonBackupFile'
 
 target = target_dir + os.sep + \
         time.strftime('%Y%m%d%H%M%S') + '.zip'
