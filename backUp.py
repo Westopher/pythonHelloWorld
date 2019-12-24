@@ -10,7 +10,14 @@ if not os.path.exists(target_dir):
 
 today = target_dir + os.sep + time.strftime('%Y%m%d')
 
-now = time.strftime(%H%M%S)
+now = time.strftime('%H%M%S')
+
+target = today + os.sep + now + '.zip'
+
+if not os.path.exists(today):
+    os.mkdir(today)
+    print("successfully created dir", today)
+
 
 zip_command = 'zip -r {0} {1}'.format(target, ' '.join(source))
 
