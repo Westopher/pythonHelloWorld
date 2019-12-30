@@ -108,7 +108,7 @@ members = [T, S]
 for member in members:
     member.tell() """
 
-def reverse(text):
+""" def reverse(text):
     return text[::-1]
 
 def isPalindrome(text):
@@ -118,7 +118,32 @@ something = input("Enter text: ")
 if isPalindrome(something):
     print("Yes it is a palindrome")
 else:
-    print("no, it's not a palindrome")
+    print("no, it's not a palindrome") """
+
+poem = '''\
+Programming is fun
+When the work is done
+if you wanna make your work also fun:
+    use Python!
+'''
+
+f = open('poem.txt', 'w')
+f.write(poem)
+f.close()
+
+f = open('poem.txt', 'a')
+while True:
+    #line = f.readline()
+    append = f.write("added text")
+    if len(append) == 0:
+        break
+    print(append, end='')
+f.close()
+
+
+
+
+
 
 
 
