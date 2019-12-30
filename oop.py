@@ -23,7 +23,7 @@ class Person2:
 p2 = Person2("West", 34, "Python dev")
 print(p2.name) """
 
-class Robot:
+""" class Robot:
     #populations is a class variable
     #so we're asking how many Robots exist in total when we get population variable
     population = 0
@@ -66,10 +66,17 @@ print(Robot.population, "C-3PO")
 droid1.die()
 print(Robot.population)
 droid2.die()
-print(Robot.population)
+print(Robot.population) """
 
 
-
+class schoolMember:
+    def __init__(self, name, age):
+        self.name = name
+        self. age = age
+        print(f'(Initialized School Member: {self.name}, end=" ")
+    
+    def tell(self):
+        print(f'Name: "{self.name}" Age: "{self.age}"', end=" ")
 
 
 
