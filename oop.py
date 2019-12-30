@@ -28,7 +28,7 @@ class Robot:
     def __init__(self, name):
         self.name = name
         print(f"(Initializing{self.name})")
-        Robot.population += 0
+        Robot.population += 1
     
     def die(self):
         print(f"{self.name} is being destroyed")
@@ -43,9 +43,18 @@ class Robot:
         print(f"Greetings, my masters call me {self.name}")
 
     @classmethod
-    def howMany(cls):
-        print("we have {:d} robots.".format(cls.population))
+    def how_many(cls):
+        print("We have {:d} robots.".format(cls.population))
 
+droid1 = Robot("R2-D2")
+droid1.sayHi()
+Robot.how_many
+print(Robot.population, "R2")
+
+droid2 = Robot("C-3PO")
+droid2.sayHi()
+Robot.how_many
+print(Robot.population, "C-3PO")
 
 
 
