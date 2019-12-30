@@ -24,12 +24,19 @@ p2 = Person2("West", 34, "Python dev")
 print(p2.name) """
 
 class Robot:
+    #populations is a class variable
+    #so we're asking how many Robots exist in total when we get population variable
     population = 0
+    
+    #name is an object variable, so it applies to instances of Robot, but not Robot itself
+    #what's the name of this specific robot
     def __init__(self, name):
         self.name = name
         print(f"(Initializing{self.name})")
         Robot.population += 1
     
+    #these methods APPLY and define instances of the Robot class
+    #they are referred to with self rather than robot to indicate that they apply to instances, not Robot itself
     def die(self):
         print(f"{self.name} is being destroyed")
         Robot.population -= 1
