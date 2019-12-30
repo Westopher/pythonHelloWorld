@@ -131,14 +131,7 @@ f = open('poem.txt', 'w')
 f.write(poem)
 f.close()
 
-f = open('poem.txt', 'a')
-while True:
-    #line = f.readline()
-    append = f.write("added text")
-    if len(append) == 0:
-        break
-    print(append, end='')
-f.close()
+
 
 
 

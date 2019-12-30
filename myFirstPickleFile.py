@@ -4,7 +4,7 @@ shopListFile = 'shoplist.data'
 shopList = ['apple', 'mango', 'carrot']
 
 f = open(shopListFile, 'wb')
-pickle.dump(shopListFile, f)
+pickle.dump(shopList, f)
 f.close()
 
 del shopList
@@ -14,3 +14,4 @@ f = open(shopListFile, 'rb')
 storedList = pickle.load(f)
 print(storedList)
 f.close()
+
