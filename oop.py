@@ -32,7 +32,7 @@ class Robot:
     
     def die(self):
         print(f"{self.name} is being destroyed")
-        Robot.population -= 0
+        Robot.population -= 1
         
         if Robot.population == 0:
             print(f"{self.name} was the last Robot")
@@ -55,6 +55,11 @@ droid2 = Robot("C-3PO")
 droid2.sayHi()
 Robot.how_many
 print(Robot.population, "C-3PO")
+
+droid1.die()
+print(Robot.population)
+droid2.die()
+print(Robot.population)
 
 
 
