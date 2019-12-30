@@ -108,12 +108,17 @@ members = [T, S]
 for member in members:
     member.tell() """
 
+def reverse(text):
+    return text[::-1]
 
-text = "abcdefghijk"
+def isPalindrome(text):
+    return text == reverse(text)
 
-#iterate through the text going by 1 in the opposite direction
-print(text[::-1])
-
+something = input("Enter text: ")
+if isPalindrome(something):
+    print("Yes it is a palindrome")
+else:
+    print("no, it's not a palindrome")
 
 
 
