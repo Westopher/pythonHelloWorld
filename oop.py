@@ -9,7 +9,7 @@ p.sayHi()
 
 class Person2:
     def __init__(self, name, age, profession):
-        self.name = name
+        self.name = 'Benedicte'
         self.age = age
         self.profession = profession
     
@@ -17,4 +17,4 @@ class Person2:
         print(f'Hey {self.name}, you are {self.age} years old, and you are a pro {self.profession}.')
 
 p2 = Person2("West", 34, "Python dev")
-p2.sayHello()
+print(p2.name)
