@@ -69,14 +69,50 @@ droid2.die()
 print(Robot.population) """
 
 
-class schoolMember:
+""" class schoolMember:
     def __init__(self, name, age):
         self.name = name
         self. age = age
-        print(f'(Initialized School Member: {self.name}, end=" ")
-    
+        print(f'Initialized School Member: {self.name}', end=" ")
+
     def tell(self):
         print(f'Name: "{self.name}" Age: "{self.age}"', end=" ")
+    
+class Teacher(schoolMember):
+    def __init__(self, name, age, salary):
+        schoolMember.__init__(self, name, age)
+        self.salary = salary
+        print(f'(Initialized Teacher: {self.name})')
+    
+    def tell(self):
+        schoolMember.tell(self)
+        print('Salary: "{:d}"'.format(self.salary))
+
+class Student(schoolMember):
+    def __init__(self, name, age, grades):
+        schoolMember.__init__(self, name, age)
+        self.grades = grades
+        print(f'(Initialized Student: {self.name})')
+
+    def tell(self):
+        schoolMember.tell(self)
+        print(f'Grades: "{self.grades}"')
+
+T = Teacher("Connie Anderson", 52, 60_000)
+S = Student("West Kraemer", 20, 3.9)
+
+print()
+
+members = [T, S]
+
+for member in members:
+    member.tell() """
+
+
+text = "abcdefghijk"
+
+#iterate through the text going by 1 in the opposite direction
+print(text[::-1])
 
 
 
